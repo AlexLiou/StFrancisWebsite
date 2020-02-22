@@ -2,10 +2,11 @@ import React from "react"
 import { Grid, Divider, Container, Header, List, Icon} from "semantic-ui-react"
 import 'semantic-ui-css/semantic.min.css';
 import Pdf from '../images/96efa12a38c0bbe5a96ac5089ed72de9.png'
+import '../styles/Contactpage.css'
 
 function Contactpage(props) {
     return (
-        <div>
+        <div className='page'>
             <div className="Volunteer Form">
             <Header as='h2' textAlign='center'>Volunteer Opportunities at St. Francis House</Header>
             <Container textAlign='center'>
@@ -130,7 +131,7 @@ function Contactpage(props) {
                     </List.Content>
                 </List.Item>
                 <List.List>
-                    <List.Content>Organie an event on the behalf of St. Francis House for: supplies, donations, funds, etc.</List.Content>
+                    <List.Content>Organize an event on the behalf of St. Francis House for: supplies, donations, funds, etc.</List.Content>
                     <List.Content>Items we are always in need of: bleach, floor cleaner, toilet paper, paper towels, trash bags, towels, washcloths, sheets, blankets, personal hygiene items, men's and women's casual clothing, etc.</List.Content>
                 </List.List>
             </List>
@@ -147,8 +148,10 @@ function Contactpage(props) {
                 <p>Address: 2618 NW 6th Street, Gainesville, FL 32609</p>
                 <p>Phone Number: 352-505-3311</p>
             </Container>
+            <br></br>
             <Container textAlign='center'>
-                <b>Volunteer & Communications Manager: Katelyn Drummet</b>
+                <b>Volunteer & Communications Manager:</b>
+                <p> Send Inquiries to Katelyn Drummet</p>
                 <p>Phone Number: 352-378-9079 ext. 317</p>
                 <p>Email: <u>sfhcoor@stfrancis.cfcoxmail.com</u></p>
             </Container>
