@@ -1,0 +1,19 @@
+body {
+    font-size: 25px;
+}
+
+.page {
+    background-color: black;
+}
+
+.content {
+    margin: 2% 5% 2% 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.title {
+    margin: 40px !important;
+}
