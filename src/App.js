@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import Header from './components/Header.js';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import './App.css';
+import Footer from './components/Footer/footer'
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
     //     </div>
     //   </Router>
     // </div>
-    <Header/>
+    <Footer/>
   );
 }
 
