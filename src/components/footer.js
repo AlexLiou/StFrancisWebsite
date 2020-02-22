@@ -1,13 +1,15 @@
 import React from 'react'
 import '../styles/footer.css'
-import {Segment, Button} from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.min.css'
+import {Segment, Button, Icon} from 'semantic-ui-react'
 
 const Footer = (props) => {
 
     return (
         <div className='footer'>
-            <Segment>Copyright information</Segment>
+            <Segment className="center aligned">Copyright information</Segment>
+            <Button textAlign='right aligned' color='facebook' href='https://www.facebook.com/stfrancisgainesville/'>
+                <Icon name='facebook'/> Facebook
+            </Button>
         </div>
     );
 
