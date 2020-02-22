@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../components/Header.js"
 import { Grid } from "semantic-ui-react"
+import SlideShow from "../components/SlideShow.js"
 
 function Homepage(props) {
     return (
         <div className="top">
+            <SlideShow/>
             <Grid divided = 'vertically'>
             <Grid columns = {3}>
             <Grid.Row>

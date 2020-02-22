@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import Header from './components/Header.js';
 import Homepage from './pages/Homepage.js';
+import Aboutpage from './pages/Aboutpage.js';
+import Contactpage from './pages/Contactpage.js';
+import Staffpage from './pages/Staffpage';
+import Footer from './components/footer.js';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -13,11 +17,15 @@ function App() {
         <div className="container">
           <main>
             <Switch>
-              <Route exact path="/homepage/" render={(props) => <Homepage {...props}/>}/>
+              <Route exact path="/home/" render={(props) => <Homepage {...props}/>}/>
+              <Route exact path="/about/" render={(props) => <Aboutpage {...props}/>}/>
+              <Route exact path="/contact/" render={(props) => <Contactpage {...props}/>}/>
+              <Route exact path="/staff/" render={(props) => <Staffpage {...props}/>}/>
             </Switch>
           </main>
         </div>
       </Router>
+      <Footer/>
     </div>
   );
 }
