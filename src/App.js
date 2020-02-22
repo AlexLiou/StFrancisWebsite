@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Header from './components/Header.js';
+
 import Homepage from './pages/Homepage.js';
 import Aboutpage from './pages/Aboutpage.js';
 import Contactpage from './pages/Contactpage.js';
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Router>
+      {/* <Router>
         <div className="container">
           <main>
             <Switch>
