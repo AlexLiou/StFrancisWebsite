@@ -1,5 +1,5 @@
 import React from 'react'
-import './footer.css'
+import '../styles/footer.css'
 import {Segment, Button} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
