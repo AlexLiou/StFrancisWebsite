@@ -1,5 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
+<<<<<<< HEAD
+import './App.css';
+import Footer from './components/Footer/footer'
+import Header from './components/Header'
+import StaffPage from './pages/StaffPage'
+
+function App() {
+  return (
+    <StaffPage/>
+=======
 import Header from './components/Header.js';
 
 import Homepage from './pages/Homepage.js';
@@ -21,6 +31,7 @@ function App() {
       </Router> */}
       <Homepage/>
     </div>
+>>>>>>> develop
   );
 }
 
