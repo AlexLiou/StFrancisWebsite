@@ -11,6 +11,7 @@ function App() {
     <StaffPage/>
 =======
 import Header from './components/Header.js';
+
 import Homepage from './pages/Homepage.js';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Router>
+      {/* <Router>
         <div className="container">
           <main>
             <Switch>
@@ -27,7 +28,8 @@ function App() {
             </Switch>
           </main>
         </div>
-      </Router>
+      </Router> */}
+      <Homepage/>
     </div>
 >>>>>>> develop
   );

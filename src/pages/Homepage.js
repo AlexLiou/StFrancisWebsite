@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "../components/Header.js"
+import { Grid } from "semantic-ui-react"
+import SlideShow from "../components/SlideShow.js"
 
 function Homepage(props) {
-  <div class = "About"> </div>
-
-        <Grid divided = 'vertically'>
+  return (
+    <div class = "About">
+      <SlideShow/>
+      <Grid divided = 'vertically'>
         <Grid columns = {3}>
         <Grid.Row>
         <Grid.Column>
@@ -43,6 +46,9 @@ function Homepage(props) {
         </Grid.Row>
         </Grid>
         </Grid>
+    </div>
+  );
+  
 }
 
 export default Homepage;
