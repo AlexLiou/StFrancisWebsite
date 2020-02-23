@@ -137,12 +137,13 @@ function Contactpage(props) {
             </List>
             <a href = {Pdf} target = "_blank">Download Application Form</a>
             </div>
-            <Divider horizontal> Contact Us </Divider>
+            <Divider horizontal>Contact Us</Divider>
             <Container textAlign='center'>
                 <b>St. Francis House, Inc</b>
                 <p>Address: 413 S. Main Street, Gainesville, FL 32601</p>
                 <p>Phone Number: 352-378-9079</p>
             </Container>
+            <br></br>
             <Container textAlign='center'>
                 <b>Arbor House</b>
                 <p>Address: 2618 NW 6th Street, Gainesville, FL 32609</p>

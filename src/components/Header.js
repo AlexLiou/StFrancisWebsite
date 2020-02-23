@@ -1,11 +1,15 @@
 import React, {Components} from "react";
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
+import { Icon } from 'semantic-ui-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'semantic-ui-css/semantic.min.css'
+
 
 function Header(props) {
     return(
         <Navbar bg="dark" expand="lg" variant="dark">
-            <Navbar.Brand href="#home">St. Francis House</Navbar.Brand>
+            <Icon name='home' size='large' color='brown'/>
+            <Navbar.Brand href="home">St. Francis House</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

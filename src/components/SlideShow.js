@@ -3,6 +3,7 @@ import logo from '../images/22432_4d5ca8ed2593e.image.jpg';
 import image1 from '../images/AR-604135206.jpg';
 import image2 from  '../images/EQLiv-LWoAAPs6y.png';
 import {Slide} from 'react-slideshow-image'
+import '../styles/SlideShow.css'
 
 
 const SlideShow = () => {

@@ -6,10 +6,12 @@ const Footer = (props) => {
 
     return (
         <div className='footer'>
-            <Segment className="center aligned">Copyright information</Segment>
+            <Segment className="center aligned">
+                <p>Copyright information</p>
             <Button textAlign='right aligned' color='facebook' href='https://www.facebook.com/stfrancisgainesville/'>
                 <Icon name='facebook'/> Facebook
             </Button>
+            </Segment>
         </div>
     );
 
