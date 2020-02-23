@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './components/Header.js';
-
+import './App.css'
 import Homepage from './pages/Homepage.js';
 import Aboutpage from './pages/Aboutpage.js';
 import Contactpage from './pages/Contactpage.js';
@@ -14,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Router>
-        <div className="container">
+        <Router>
+        <div>
           <main>
             <Switch>
               <Route exact path="/home/" render={(props) => <Homepage {...props}/>}/>
@@ -25,7 +24,7 @@ function App() {
             </Switch>
           </main>
         </div>
-      </Router>
+        </Router>
       <Footer/>
     </div>
   );
